@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Happy Birthday Sneha (Choti)</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    overflow-x: hidden;
+}
+
+/* Card */
+.card {
+    max-width: 400px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Heading Glow */
+h1 {
+    color: #ff4d6d;
+    text-shadow: 0 0 10px #ff4d6d;
+}
+
+/* Image */
+.photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 6px solid #ff4d6d;
+    object-fit: cover;
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    from { box-shadow: 0 0 10px #ff4d6d; }
+    to { box-shadow: 0 0 25px #ff4d6d; }
+}
+
+/* Typing Text */
+.typing {
+    font-size: 16px;
+    white-space: pre-line;
+    border-right: 2px solid black;
+    width: 0;
+    overflow: hidden;
+    animation: typing 8s steps(200, end) forwards;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* Balloons */
+.balloon {
+    position: fixed;
+    bottom: -100px;
+    width: 40px;
+    height: 50px;
+    background: red;
+    border-radius: 50%;
+    animation: float 6s infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-100vh); }
+}
+
+/* Footer */
+.footer {
+    margin-top: 20px;
+    color: gray;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- 🎵 MUSIC -->
+<audio autoplay loop>
+  <source src="https://www2.cs.uic.edu/~i101/SoundFiles/HappyBirthday.wav" type="audio/wav">
+</audio>
+
+<!-- 🎈 BALLOONS -->
+<div class="balloon" style="left:10%; background:#ff4d6d;"></div>
+<div class="balloon" style="left:30%; background:#ffcc00;"></div>
+<div class="balloon" style="left:60%; background:#00ccff;"></div>
+<div class="balloon" style="left:80%; background:#66ff66;"></div>
+
+<div class="card">
+
+<h1>🎉 Happy Birthday SNEHA (CHOTI) 🎉</h1>
+
+<div class="photo">
+<img src="https://i.postimg.cc/3J2Yw8Kx/sneha.jpg">
+</div>
+
+<p class="typing">
+Dear Sneha (Choti) ❤️,
+
+Even though we are far apart, you are always close to my heart 💖
+Distance can never reduce the love I have for you.
+
+You are my sister, my best friend, and my biggest support 🌸
+
+I miss you a lot on your special day, but my blessings are always with you ✨
+
+May your life be filled with happiness, success, and endless smiles 😊
+</p>
+
+<h2>🎂 Enjoy Your Special Day 🎂</h2>
+
+<div class="footer">
+With lots of love ❤️<br>
+Your Loving Brother
+</div>
+
+</div>
+
+</body>
+</html>
